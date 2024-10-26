@@ -1,6 +1,6 @@
 *.mp3
 *.mp4
-*.txt
+
 .streamlit
 
 # Byte-compiled / optimized / DLL files
