@@ -44,7 +44,7 @@ if uploaded_file:
 
         texto_retorno = generate_response(prompt_system, prompt_text)
 
-        st.markdown(texto_retorno)
-        st.text_area('Transcricao',texto_transcrito)
+        st.markdown('Ata', texto_retorno)
+        st.text_area('Transcrição',texto_transcrito)
     
     st.success("Transcrição realizada!")
