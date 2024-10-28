@@ -5,7 +5,6 @@ import assemblyai as aai
 import streamlit as st
 aai.settings.api_key = st.secrets['assemblyai']['api_key']
 transcriber = aai.Transcriber()
-    # mp3_filename = r'b3a2bafabe894437b338069d1fb9457d.mp3'
 def transcribe_text(file_name):
 	
     config = aai.TranscriptionConfig( speaker_labels = True, speakers_expected = 2, language_code = 'pt' )
